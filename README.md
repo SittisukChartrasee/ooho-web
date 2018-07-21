@@ -1,3 +1,19 @@
+## Demo
+- [Click Link For Check Demo Web](https://sittisukchartrasee.github.io/ooho-web/)
+- Techniques for developer [Techniques](#Techniques)
+
+## Techniques
+- How to deploy pages up to hosting of github [How To Deploy](#How-to-deploy)
+
+## How To Deploy
+ - create branch from your github name [gh-pages](gh-pages)
+ - Terminal : yarn add gh-pages
+ - add code to package.json
+  - "homepage" : "http://SittisukChartrasee.github.io/ooho-web",
+  - "predeploy": "npm run build",
+  - "deploy": "gh-pages -d build",
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
