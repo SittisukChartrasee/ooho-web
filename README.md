@@ -6,12 +6,12 @@
 - How to deploy pages up to hosting of github [How To Deploy](#How-to-deploy)
 
 ## How To Deploy
- - create branch from your github name [gh-pages](gh-pages)
- - Terminal : yarn add gh-pages
+ - create branch from your github name [gh-pages](#)
+ - Terminal : [yarn add gh-pages](#)
  - add code to package.json
   - "homepage" : "http://SittisukChartrasee.github.io/ooho-web",
-  - "predeploy": "npm run build",
-  - "deploy": "gh-pages -d build",
+  - "predeploy": ["npm run build"](),
+  - "deploy": ["gh-pages -d build"](#),
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
